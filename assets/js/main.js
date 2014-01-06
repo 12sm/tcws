@@ -73,6 +73,14 @@ $(document).ready(UTIL.loadEvents);
         if ( $this.hasClass('selected') ) {
           return false;
         }
+
+        // filter items when filter link is clicked
+        $('#filters a').click(function(){
+        var selector = $(this).attr('data-filter');
+        $container.isotope({ filter: selector });
+        return false;
+      });
+
         //Size 2 resize
         $(window).smartresize(function(){
         $( ".width2" ).each(function( i ) {
@@ -102,7 +110,9 @@ $(document).ready(UTIL.loadEvents);
         }
         
         return false;
-      });  
+      }); 
+      //debug
+      console.log("Isotope is running") 
     });
 
 // This looks for Vimeo thumbnail if we have the class 'vim' in an li tag
