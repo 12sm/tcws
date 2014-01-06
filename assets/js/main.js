@@ -18,7 +18,7 @@ var ExampleSite = {
   home: {
     init: function() {
       // JS here
-      $(document).ready(isotope());
+      $(document).ready(isotope())
     };
     
   },
@@ -30,7 +30,7 @@ var ExampleSite = {
   },
   work: {
     init: function(){
-    $(document).ready(isotope());
+    $(document).ready(isotope())
     }
   },
 };
