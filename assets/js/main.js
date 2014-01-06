@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Git YAY!!!!
 =======
 //Git Test
 >>>>>>> parent of a13cbb5... Test Last
+=======
+>>>>>>> parent of 44d6426... Yay Github
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 // Only fires on body class (working off strictly WordPress body_class)
 
@@ -56,6 +59,7 @@ var UTIL = {
 };
 
 $(document).ready(UTIL.loadEvents);
+//change to test git hub one last time
 // This fires Isotope
     $(function isotope(){
       //sets container
