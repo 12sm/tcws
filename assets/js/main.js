@@ -75,11 +75,16 @@ $(document).ready(function() {
 
 // This fires Isotope
     $(function(){
-      
-      var $container = $('#vimeos');
+      //sets container
+      var $container = $('#projects');
 
       $container.isotope({
-        itemSelector : '.element'
+        itemSelector : '.item'
+        resizable: false, //disable normal resizing
+        // divides container into columns
+        masonry: { 
+          columnWidth: $container.width() / 3,
+          gutterWidth: 0 }
       });
       
       
@@ -92,6 +97,15 @@ $(document).ready(function() {
         if ( $this.hasClass('selected') ) {
           return false;
         }
+        //Size 2 resize
+        $(window).smartresize(function(){
+        $( ".width2" ).each(function( i ) {
+            var $box = $(this);
+            var $width = $(this).width();
+            var $curr_width =parseInt($width); // removes the "px" at the end
+            var $height = $curr_width*0.27185328185328 + "px";
+            $(".width2").css("height",$height);
+          });
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
