@@ -14,7 +14,7 @@ var ExampleSite = {
   home: {
     init: function() {
       // JS here
-      isotope();
+      $(document).ready(isotope());
     };
     
   },
@@ -26,7 +26,7 @@ var ExampleSite = {
   },
   work: {
     init: function(){
-    isotope();
+    $(document).ready(isotope());
     }
   },
 };
@@ -85,14 +85,14 @@ $(document).ready(UTIL.loadEvents);
       });
 
         //Size 2 resize
-        $(window).smartresize(function(){
+        /*$(window).smartresize(function(){
         $( ".width2" ).each(function( i ) {
             var $box = $(this);
             var $width = $(this).width();
             var $curr_width =parseInt($width); // removes the "px" at the end
             var $height = $curr_width*0.27185328185328 + "px";
             $(".width2").css("height",$height);
-          });
+          });*/
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
