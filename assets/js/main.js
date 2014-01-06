@@ -14,7 +14,7 @@ var ExampleSite = {
     init: function() {
       // JS here
     }
-    isotope()
+    isotope();
   },
   // About page
   about: {
@@ -23,7 +23,7 @@ var ExampleSite = {
     }
   }
   work: {
-    init: isotope()
+    isotope();
   }
 };
 
@@ -50,7 +50,7 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 
 // This fires Isotope
-    $(function Isotope(){
+    $(function isotope(){
       //sets container
       var $container = $('#projects');
 
