@@ -14,6 +14,7 @@ var ExampleSite = {
     init: function() {
       // JS here
     }
+    isotope()
   },
   // About page
   about: {
@@ -22,8 +23,34 @@ var ExampleSite = {
     }
   }
   work: {
-    // This fires Isotope
-    $(function(){
+    init: isotope()
+  }
+};
+
+var UTIL = {
+  fire: function(func, funcname, args) {
+    var namespace = ExampleSite;
+    funcname = (funcname === undefined) ? 'init' : funcname;
+    if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
+      namespace[func][funcname](args);
+    }
+  },
+  loadEvents: function() {
+
+    UTIL.fire('common');
+
+    $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
+      UTIL.fire(classnm);
+    });
+
+    UTIL.fire('common', 'finalize');
+  }
+};
+
+$(document).ready(UTIL.loadEvents);
+
+// This fires Isotope
+    $(function Isotope(){
       //sets container
       var $container = $('#projects');
 
@@ -77,33 +104,6 @@ var ExampleSite = {
         return false;
       });  
     });
-
-  }
-};
-
-var UTIL = {
-  fire: function(func, funcname, args) {
-    var namespace = ExampleSite;
-    funcname = (funcname === undefined) ? 'init' : funcname;
-    if (func !== '' && namespace[func] && typeof namespace[func][funcname] === 'function') {
-      namespace[func][funcname](args);
-    }
-  },
-  loadEvents: function() {
-
-    UTIL.fire('common');
-
-    $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
-      UTIL.fire(classnm);
-    });
-
-    UTIL.fire('common', 'finalize');
-  }
-};
-
-$(document).ready(UTIL.loadEvents);
-
-
 
 // This looks for Vimeo thumbnail if we have the class 'vim' in an li tag
 $(document).ready(function() {
