@@ -14,8 +14,9 @@ var ExampleSite = {
   home: {
     init: function() {
       // JS here
-    }
-    isotope();
+      isotope();
+    };
+    
   },
   // About page
   about: {
@@ -24,7 +25,9 @@ var ExampleSite = {
     }
   }
   work: {
+    init: function(){
     isotope();
+    }
   }
 };
 
