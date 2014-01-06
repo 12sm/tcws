@@ -23,12 +23,12 @@ var ExampleSite = {
     init: function() {
       // JS here
     }
-  }
+  },
   work: {
     init: function(){
     isotope();
     }
-  }
+  },
 };
 
 var UTIL = {
