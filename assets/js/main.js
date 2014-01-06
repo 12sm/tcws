@@ -48,7 +48,7 @@ var UTIL = {
 };
 
 $(document).ready(UTIL.loadEvents);
-//change to test git hub
+//change to test git hub2
 // This fires Isotope
     $(function isotope(){
       //sets container
