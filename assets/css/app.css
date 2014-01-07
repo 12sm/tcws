@@ -127,11 +127,12 @@ h5 {
 	height: 15px;
 }
 
-.active .menu-spotlight{
+ li .active .menu-spotlight{
 	border-top: 3px;
 	border-bottom: 3px;
 	border-color: rgb(255,255,255, 0.4)
 }
+
 /* - Footer - */
 
 
