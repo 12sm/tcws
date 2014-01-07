@@ -72,8 +72,54 @@ var ExampleSite = {
   },
   work: {
     init: function(){
-    $(document).ready(fireIsotope())
-    }
+    $(window).load(function(){
+
+        $( ".width2" ).each(function( i ) {
+            var $box = $(this);
+            var $width = $(this).width();
+            var $curr_width =parseInt($width); // removes the "px" at the end
+            var $height = $curr_width*0.27185328185328 + "px";
+            $(".width2").css("height",$height);
+          });      
+      
+      
+        var $container = $('#projects');
+        // initialize isotope
+        $container.isotope({
+          resizable: false, // disable normal resizing
+          // set columnWidth to a percentage of container width
+          masonry: { 
+          columnWidth: $container.width() / 4,
+          gutterWidth: 0 }
+        });
+        // filter items when filter link is clicked
+     $('#filters a').click(function(){
+          var selector = $(this).attr('data-filter');
+            $container.isotope({ filter: selector });
+          return false;
+    });
+    
+    $(".item").css("opacity", "1");
+        
+    $(window).smartresize(function(){
+        $( ".width2" ).each(function( i ) {
+            var $box = $(this);
+            var $width = $(this).width();
+            var $curr_width =parseInt($width); // removes the "px" at the end
+            var $height = $curr_width*0.27185328185328 + "px";
+            $(".width2").css("height",$height);
+          });
+          
+          //$( ".mi-slider nav" ).css("top", "60%");    
+    
+       $container.isotope({
+         // update columnWidth to a percentage of container width
+         masonry: { columnWidth: $container.width() / 4 }
+      });
+      
+    });       
+     // END window.load   
+     });
   },
 };
 
