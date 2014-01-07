@@ -13,7 +13,54 @@ var ExampleSite = {
   home: {
     init: function() {
       // JS here
-      $(document).ready(fireIsotope())
+      $(window).load(function(){
+
+        $( ".width2" ).each(function( i ) {
+            var $box = $(this);
+            var $width = $(this).width();
+            var $curr_width =parseInt($width); // removes the "px" at the end
+            var $height = $curr_width*0.27185328185328 + "px";
+            $(".width2").css("height",$height);
+          });      
+      
+      
+        var $container = $('#projects');
+        // initialize isotope
+        $container.isotope({
+          resizable: false, // disable normal resizing
+          // set columnWidth to a percentage of container width
+          masonry: { 
+          columnWidth: $container.width() / 4,
+          gutterWidth: 0 }
+        });
+        // filter items when filter link is clicked
+     $('#filters a').click(function(){
+          var selector = $(this).attr('data-filter');
+            $container.isotope({ filter: selector });
+          return false;
+    });
+    
+    $(".item").css("opacity", "1");
+        
+    $(window).smartresize(function(){
+        $( ".width2" ).each(function( i ) {
+            var $box = $(this);
+            var $width = $(this).width();
+            var $curr_width =parseInt($width); // removes the "px" at the end
+            var $height = $curr_width*0.27185328185328 + "px";
+            $(".width2").css("height",$height);
+          });
+          
+          //$( ".mi-slider nav" ).css("top", "60%");    
+    
+       $container.isotope({
+         // update columnWidth to a percentage of container width
+         masonry: { columnWidth: $container.width() / 4 }
+      });
+      
+    });       
+     // END window.load   
+     });
     }
     
   },
@@ -53,7 +100,7 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 //change to test git hub one last time
 // This fires Isotope
-    $(function fireIsotope(){
+    /*$(function fireIsotope(){
       //sets container
       var $container = $('#projects');
 
@@ -85,14 +132,14 @@ $(document).ready(UTIL.loadEvents);
       });
 
         //Size 2 resize
-        /*$(window).smartresize(function(){
+        $(window).smartresize(function(){
         $( ".width2" ).each(function( i ) {
             var $box = $(this);
             var $width = $(this).width();
             var $curr_width =parseInt($width); // removes the "px" at the end
             var $height = $curr_width*0.27185328185328 + "px";
             $(".width2").css("height",$height);
-          });*/
+          });
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
@@ -116,8 +163,7 @@ $(document).ready(UTIL.loadEvents);
       }); 
       //debug
       console.log("Isotope is running") 
-    });
-
+    });*/
 // This looks for Vimeo thumbnail if we have the class 'vim' in an li tag
 $(document).ready(function() {
 	$("div.element").each(function()
