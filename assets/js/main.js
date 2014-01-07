@@ -120,6 +120,7 @@ var ExampleSite = {
     });       
      // END window.load   
      });
+    }
   },
 };
 
