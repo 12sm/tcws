@@ -108,6 +108,13 @@ h5 {
 
 .navbar-toggle{
 	border: 0px!important;
+	height: 15px!important;
+	width: 100%;
+	padding: 0px!important;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px!important;
+	margin-bottom: 0px!important;
 }
 
 .navbar-header{
