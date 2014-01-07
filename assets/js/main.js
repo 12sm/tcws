@@ -58,7 +58,7 @@ $(document).ready(UTIL.loadEvents);
       var $container = $('#projects');
 
       $container.isotope({
-        itemSelector : '.item'
+        itemSelector : '.item',
         resizable: false, //disable normal resizing
         // divides container into columns
         masonry: { 
