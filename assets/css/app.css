@@ -66,6 +66,16 @@ h5 {
 
 /* - Nav - */
 
+#navButton>h1{
+	color: #FFF!important;
+	text-decoration: none;
+	background: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "ubuntu",sans-serif;
+}
+
 .menu-primary-navigation{
 	margin-left: auto;
 	margin-right: auto;
@@ -98,6 +108,10 @@ h5 {
 
 .navbar-toggle{
 	border: 0px!important;
+}
+
+.navbar-header{
+	height: 15px;
 }
 /* - Footer - */
 
