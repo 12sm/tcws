@@ -126,6 +126,12 @@ h5 {
 .navbar-header{
 	height: 15px;
 }
+
+li .active .menu-spotlight{
+	border-top: 3px;
+	border-bottom: 3px;
+	border-color: rgb(255,255,255, 0.4)
+}
 /* - Footer - */
 
 
