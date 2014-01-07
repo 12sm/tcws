@@ -14,7 +14,7 @@ var ExampleSite = {
     init: function() {
       // JS here
       $(document).ready(isotope())
-    };
+    }
     
   },
   // About page
