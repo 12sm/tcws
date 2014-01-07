@@ -87,8 +87,8 @@ h5 {
 .navbar-default .navbar-nav>li{
 	margin-left:7px;
 	margin-right:7px;
-	border-top: 5px solid #C69575;
-	border-bottom: 5px solid #C69575;
+	/*border-top: 5px solid #C69575;*/
+	border-bottom: 2px solid #C69575;
 }
 
 .navbar-default .navbar-nav>li>a {
