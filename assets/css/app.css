@@ -74,6 +74,8 @@ h5 {
 	font-weight: bold;
 	font-size: 18px;
 	font-family: "ubuntu",sans-serif;
+	text-align: center!important;
+	margin-top: 0px!important;
 }
 
 .menu-primary-navigation{
@@ -113,8 +115,11 @@ h5 {
 	padding: 0px!important;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 0px!important;
+	margin-top: 10px!important;
 	margin-bottom: 0px!important;
+}
+.navbar-toggle :hover{
+	background-color: none!important;
 }
 
 .navbar-header{
