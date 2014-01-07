@@ -1,6 +1,6 @@
 // Modified http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 // Only fires on body class (working off strictly WordPress body_class)
-//Lets go GitHub!
+//Lets go GitHub!!!!
 var ExampleSite = {
   // All pages
   common: {
