@@ -13,7 +13,7 @@ var ExampleSite = {
   home: {
     init: function() {
       // JS here
-      $(document).ready(isotope())
+      $(document).ready(fireIsotope())
     }
     
   },
@@ -25,7 +25,7 @@ var ExampleSite = {
   },
   work: {
     init: function(){
-    $(document).ready(isotope())
+    $(document).ready(fireIsotope())
     }
   },
 };
@@ -53,7 +53,7 @@ var UTIL = {
 $(document).ready(UTIL.loadEvents);
 //change to test git hub one last time
 // This fires Isotope
-    $(function isotope(){
+    $(function fireIsotope(){
       //sets container
       var $container = $('#projects');
 
