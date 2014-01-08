@@ -159,7 +159,6 @@ h5 {
 	background-color:#000;
 	background-image:url(../img/nav-bg-image.jpg);
 	background-position: center;
-	border-bottom: 3px solid rgba(198,149,117, .5);
 	box-shadow: 0px 15px 10px black;
 }
 
@@ -586,6 +585,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	width: 25%;
 	float: left;
 	}
+.navbar-default{
+	border-bottom: 3px solid rgba(198,149,117, .5);
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
