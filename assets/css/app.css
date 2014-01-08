@@ -582,7 +582,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 1200px) { 
 .navbar-default .navbar-nav>li{
 	border-bottom: 0px solid #FFF;
-	margin-top: 8px;
+	/*margin-top: 8px;*/
 	width: 25%;
 	float: left;
 }
