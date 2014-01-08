@@ -139,10 +139,6 @@ h5 {
 	background: rgba(0, 0, 0, 0)!important; 
 }
 
-.navbar-header{
-	height: 15px;
-}
-
 /* - Footer - */
 
 
@@ -574,16 +570,22 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) { }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+.navbar-header{
+	height: 15px;
+	}
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
 .navbar-default .navbar-nav>li{
 	border-bottom: 0px solid #FFF;
 	/*margin-top: 8px;*/
 	width: 25%;
 	float: left;
+	}
 }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
 
 
 
