@@ -609,6 +609,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
         /*height: 130px!important;*/
         background: url("/assets/img/top-nav-logo.jpg") no-repeat center;
 }
+
+.wrap{
+  padding-top: 15%;
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
