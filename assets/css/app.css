@@ -66,6 +66,10 @@ h5 {
 
 /* - Nav - */
 
+.navbar{
+	border-bottom: 0px solid #FFF;
+}
+
 #navButton>h1{
 	color: #FFF!important;
 	text-decoration: none;
@@ -565,6 +569,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-default .navbar-nav>li{
 	border-bottom: 0px solid #FFF;
 	margin-top: 8px;
+	width: 25%;
+	float: left;
 }
 
 #topBanner{
