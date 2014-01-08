@@ -168,7 +168,8 @@ h5 {
 }
 
 nav .collapse .navbar-collapse {
-	margin:0% 30%;	
+	margin:0% 30%;
+	border-top: 0px solid #FFF!important;
 }
 
 #topBanner{
