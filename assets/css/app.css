@@ -126,9 +126,7 @@ h5 {
 }
 
 .navbar-toggle{
-	/*border-top: 5px solid #C69575;
-	border-bottom: 5px solid #C69575; */
-	border-color: 
+	border: 0px solid #FFF!important; 
 	height: 30px!important;
 	width: 100%;
 	padding: 0px!important;
