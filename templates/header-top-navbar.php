@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-      <img src="./assets/img/top-nav-logo.jpg"/>
+      <img src="./assets/img/top-nav-logo.jpg" id="topBanner"/>
       </div>
     </div>
     <div class="navbar-header">
