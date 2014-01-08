@@ -71,6 +71,12 @@ h5 {
 }
 #menu-primary-navigation{
 	width: 100%;
+	box-shadow: 0px 15px 10px black;
+}
+
+#navbar-container{
+	border-top: 5px solid #C69575;
+	border-bottom: 5px solid #C69575;
 }
 
 #navButton>h1{
