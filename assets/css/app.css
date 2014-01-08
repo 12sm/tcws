@@ -173,7 +173,6 @@ nav .collapse .navbar-collapse {
 
 #topBanner{
 	width: 100%;
-	border-bottom: 3px solid rgba(198,149,117, .5);
 }
 
 /* ==========================================================================
@@ -589,6 +588,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	border-bottom: 3px solid rgba(198,149,117, .5);
 }
 
+#topBanner{
+	border-bottom: 3px solid rgba(198,149,117, .5);
+}
 }
 
 /* Large devices (large desktops, 1200px and up) */
