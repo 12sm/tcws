@@ -1,5 +1,6 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
-  <img src="./assets/img/top-nav-logo.jpg" id="topBanner"/>
+  <div class="banner" id="topBanner">
+  </div>
   <div class="container" id="navbar-container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle btn btn-link active" data-toggle="collapse" data-target=".navbar-collapse">

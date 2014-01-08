@@ -160,7 +160,7 @@ h5 {
 	background-image:url(../img/nav-bg-image.jpg);
 	background-position: center;
 	box-shadow: 0px 15px 10px black;
-	position: absolute;
+	position: fixed;
 }
 
 .navbar-default .navbar-brand {
@@ -595,6 +595,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 #topBanner{
 	border-bottom: 3px solid rgba(198,149,117, .5);
 	/*height: 130px!important;*/
+	background-image: url("./assets/img/top-nav-logo.jpg");
 }
 }
 
