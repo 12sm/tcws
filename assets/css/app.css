@@ -121,9 +121,7 @@ h5 {
 	text-decoration:none;
 	background:none;
 }
-.banner .navbar .navbar-default{
-	border-bottom: 5px solid #C69575;
-}
+
 .navbar-default .navbar-nav>li>a:hover {
 	color:#FFF;	
 }
@@ -164,6 +162,7 @@ h5 {
 	background-color:#000;
 	background-image:url(../img/nav-bg-image.jpg);
 	background-position: center;
+	border-bottom: 5px solid #C69575;
 }
 
 .navbar-default .navbar-brand {
