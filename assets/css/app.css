@@ -172,6 +172,10 @@ nav .collapse .navbar-collapse {
 	margin:0% 30%;	
 }
 
+#topBanner{
+	width: 100%;
+	border-bottom: 2px solid #C69575;
+}
 
 /* ==========================================================================
    Content
@@ -582,8 +586,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	float: left;
 }
 
-#topBanner{
-	width: 100%;
-}
+
 
 }
