@@ -1,7 +1,7 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
     <div class="row">
-      <img src="..assets/img/top-nav-logo.jpg"/>
+      <img src="./assets/img/top-nav-logo.jpg"/>
     </div>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
