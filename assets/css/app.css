@@ -63,6 +63,10 @@ h5 {
 .center {text-align:center!important;}
 .bold {font-weight:bold;}
 .em {font-style:italic;}
+img {
+max-width:100%;
+height:auto;
+}
 
 /* === Links == */
 
@@ -496,8 +500,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 #topBanner {
 border-bottom: 3px solid rgba(198,149,117, .5);
 background: url("/assets/img/top-nav-logo.jpg") no-repeat center;
-height: 152px;
-padding-bottom:0px;
+height: 0px;
+padding-bottom: 9%;
+background-size: 100%;
 }
 
 #projects .item {

@@ -5,7 +5,7 @@ var ExampleSite = {
   // All pages
   common: {
     init: function() {
-      // JS here
+      $("iframe").fitVids();
     },
     finalize: function() { }
   },
