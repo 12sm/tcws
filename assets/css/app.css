@@ -472,6 +472,13 @@ margin: 0px auto;
 margin-bottom:0px!important;
 }
 
+body.spotlight footer,
+body.about footer,
+body.contact footer {
+position:fixed;
+bottom:0;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes

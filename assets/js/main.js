@@ -32,7 +32,7 @@ var ExampleSite = {
 	   });
     
       $(window).load(function(){
-
+      
         $( ".width2" ).each(function( i ) {
             var $box = $(this);
             var $width = $(this).width();
