@@ -500,6 +500,20 @@ height: 152px;
 padding-bottom:0px;
 }
 
+#projects .item {
+position: absolute;
+top: 0px;
+left: 0px;
+-webkit-transform: none;
+opacity:0;
+}
+
+#projects .item {width:49.7%;}
+
+#projects .width2 {width: 100%; overflow: hidden;}
+
+#projects .width3 {width: 100%;}
+
 footer {
 position:fixed;
 bottom:0;	
@@ -523,6 +537,12 @@ bottom:0;
         border-bottom: 3px solid rgba(198,149,117, .5);
 
 }
+
+#projects .item {width:24.7%;}
+
+#projects .width2 {width: 49.7%; /*max-height:202px; overflow: hidden;*/}
+
+#projects .width3 {width: 49.7%;}
 
 }
 
