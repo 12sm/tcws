@@ -15,7 +15,7 @@ body {
         font-family: "ubuntu",sans-serif;
         background-color:#000;
         color:#666;
-        background: #000 url(../img/bg-sparks.jpg) top center scroll no-repeat;
+        background: #000 url(../img/bg-sparks.jpg) top center fixed no-repeat;
 }
 
 .wrap {padding-top: 18%;}
@@ -196,6 +196,8 @@ position: relative;
 /* ==========================================================================
    Primary Content
    ========================================================================== */
+
+body.home row {margin-bottom:20%;}
 
 .page-header {
         
@@ -496,17 +498,17 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) { 
 
 .wrap {
-padding: 10% 30px 0px 30px;
+padding: 8% 30px 0px 30px;
 max-width: 1170px;
 margin: 0px auto;
 }
 
 #topBanner {
 border-bottom: 3px solid rgba(198,149,117, .5);
-background: url("/assets/img/top-nav-logo.jpg") no-repeat center;
+background: url("/assets/img/top-nav-logo.jpg") top center no-repeat;
 height: 0px;
-padding-bottom: 9%;
-background-size: 100%;
+padding-bottom: 8%;
+background-size: 90%;
 }
 
 #projects .item {
