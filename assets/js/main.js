@@ -19,7 +19,7 @@ var ExampleSite = {
 			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 				    var target = $(this.hash);
 				    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				    var headerHeight = $(".banner").height();
+				    var headerHeight = $(".banner").height() + 20;
 				    var scrollToPosition = $(target).offset().top - headerHeight;
 				    if (target.length) {
 					    $('html,body').animate({
