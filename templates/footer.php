@@ -5,10 +5,10 @@
 	</div>
 </div> 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-8">
       	<div class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="row">
       	<div class="col-md-8">
       		<p>For in-depth web services, check out our sister company</p>
