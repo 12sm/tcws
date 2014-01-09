@@ -214,14 +214,14 @@ body.home .row {margin-bottom:20%;}
         margin-left: 51px;
 }
 
-.main p {
+.page-content {
         background: #FFF url(../img/main-tile.jpg) top center scroll repeat;
         color:#666;
         line-height:1.6em;
         font-family: "ubuntu", sans-serif;
         font-weight:normal;
         font-size:18px;
-        border: 10px solid #FFF;
+        border: 10px solid #FFF;	
 }
 
 
