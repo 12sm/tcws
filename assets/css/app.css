@@ -18,6 +18,8 @@ body {
         background: #000 url(../img/bg-sparks.jpg) top center scroll no-repeat;
 }
 
+.wrap {padding-top: 18%;}
+
 h1, h2, h3, h4, h5, h6 {font-family: "ubuntu",sans-serif;text-align:left;}
 
 h1 {
@@ -142,9 +144,6 @@ h5 {
 .navbar-toggle:hover{
         background: rgba(0, 0, 0, 0)!important; 
 }
-
-/* - Footer - */
-
 
 
 /* ==========================================================================
@@ -580,10 +579,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
+.wrap {padding-top: 152px;}
+
 #topBanner {
 border-bottom: 3px solid rgba(198,149,117, .5);
 background: url("/assets/img/top-nav-logo.jpg") no-repeat center;
 height: 152px;
+padding-bottom:0px;
 }
 	
 }
@@ -605,9 +608,6 @@ height: 152px;
 
 }
 
-.wrap{
-  padding-top: 25%;
-}
 }
 
 /* Large devices (large desktops, 1200px and up) */
