@@ -243,22 +243,16 @@ body.home .row {margin-bottom:20%;}
 
 #filters li a {
 text-decoration: none;
-color: #BCBCBC;
+color: #d3d1c5;
 text-transform: uppercase;
 font-size: 14px;
-background: #5d3c13;
+background: #6d2f06;
 padding: 5px;
 }
 
 #filters li a:hover{
-	color: #6E6E6E;
+	color: #fff;
 }
-
-#filters li:hover{
-	border-top: 2px solid #6E6E6E;
-	border-bottom: 2px solid #6E6E6E;
-}
-
 
 .isotope-item {
   z-index: 2;
