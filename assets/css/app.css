@@ -179,7 +179,6 @@ height: 0px;
 padding-bottom: 22%;
 border-bottom: 2px solid rgba(198,149,117, .5);
 background: url("/assets/img/tcws-phone.jpg") no-repeat top center;
-background-size: 175%;
 position: relative;
 }
 
@@ -575,10 +574,19 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    ========================================================================== */
 
 /* Extra small devices (phones, up to 480px) */
-/* No media query since this is the default in Bootstrap */
+@media (max-width: 767px) {
+#topBanner {background-size: cover;}	
+}
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+#topBanner {
+border-bottom: 3px solid rgba(198,149,117, .5);
+background: url("/assets/img/top-nav-logo.jpg") no-repeat center;
+height: 152px;
+}
+	
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -595,12 +603,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-default{
         border-bottom: 3px solid rgba(198,149,117, .5);
 
-}
-
-#topBanner{
-        border-bottom: 3px solid rgba(198,149,117, .5);
-        /*height: 130px!important;*/
-        background: url("/assets/img/top-nav-logo.jpg") no-repeat center;
 }
 
 .wrap{
