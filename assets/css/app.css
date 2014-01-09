@@ -20,7 +20,7 @@ body {
 
 .wrap {padding-top: 18%;}
 
-h1, h2, h3, h4, h5, h6 {font-family: "ubuntu",sans-serif;text-align:left;}
+h1, h2, h3, h4, h5, h6 {font-family: "ubuntu",sans-serif;}
 
 h1 {
         font-size: 22px;
@@ -224,7 +224,8 @@ body.home .row {margin-bottom:20%;}
         border: 10px solid #FFF;	
 }
 
-.page-content p {padding: 10px 20px;}
+.page-content p,
+.Work {padding: 10px 20px;}
 
 
 /* Gallery Shortcode */
