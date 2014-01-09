@@ -225,7 +225,7 @@ body.home .row {margin-bottom:20%;}
 }
 
 .page-content p,
-.Work {padding: 10px 20px;}
+.Work .page-content {padding: 10px 20px;}
 
 
 /* Gallery Shortcode */
