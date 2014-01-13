@@ -147,8 +147,7 @@ height:auto;
 }
 
 .nav .navbar-nav{
-  margin-right: 0px!important;
-  margin-top: 0px!important;
+  margin: 0px 0px!important;
 }
 .navbar-toggle:hover{
         background: rgba(0, 0, 0, 0)!important; 
