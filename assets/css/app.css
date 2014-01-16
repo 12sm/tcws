@@ -345,7 +345,6 @@ opacity: 0.85;
    ========================================================================== */
 
 .sidebar { 
-.sidebar {
 background-color: #000;
 margin-top: 7.8%;
 opacity: .8;
@@ -442,6 +441,7 @@ body.single-clients article header {display:none;}
 
 body.single-clients .client-video {margin-bottom:60px;}
 
+body.single-clients button {color:#fff; margin-top:30px;}
 
 
 /* ==========================================================================
