@@ -203,6 +203,8 @@ position: relative;
 
 body.home .row {margin-bottom:20%;}
 
+body.home .content.row {margin-bottom:0px;}
+
 .page-header {
         
         border-bottom: none;
