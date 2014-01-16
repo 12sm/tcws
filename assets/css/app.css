@@ -439,6 +439,8 @@ input[type=search] {
 
 body.single-clients article header {display:none;}
 
+body.single-clients .client-video {margin-bottom:30px;}
+
 
 
 /* ==========================================================================
@@ -514,9 +516,16 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+)
 
 .wrap {
 padding: 8% 30px 0px 30px;
+max-width: 1170px;
+margin: 0px auto;
+}
+
+body.single .wrap {
+padding: 10% 30px 0px 30px;
 max-width: 1170px;
 margin: 0px auto;
 }
