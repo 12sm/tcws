@@ -11,8 +11,8 @@
 
     <nav class="collapse navbar-collapse" role="navigation">
       <?php
-        if (has_nav_menu('primary_navigation')) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
+        if (has_nav_menu('interior_navigation')) :
+          wp_nav_menu(array('theme_location' => 'interior_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
     </nav>
