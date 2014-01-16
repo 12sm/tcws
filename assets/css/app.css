@@ -590,7 +590,7 @@ float: left;
 
 #topBanner {
 border-bottom: 3px solid rgba(198,149,117, .5);
-background: url("/assets/img/top-nav-logo.jpg") top center no-repeat;
+background: url("/assets/img/top-nav-logo.png") top center no-repeat;
 height: 0px;
 padding-bottom: 8%;
 background-size: 90%;
