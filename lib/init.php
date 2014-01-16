@@ -10,6 +10,10 @@ function roots_setup() {
   register_nav_menus(array(
     'primary_navigation' => __('Primary Navigation', 'roots'),
   ));
+  
+    register_nav_menus(array(
+    'interior_navigation' => __('Interior Navigation', 'roots'),
+  ));
 
   // Add post thumbnails (http://codex.wordpress.org/Post_Thumbnails)
   add_theme_support('post-thumbnails');
