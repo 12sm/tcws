@@ -172,7 +172,12 @@ height:auto;
 }
 
 .navbar-default .navbar-brand {
-        display:none;
+text-indent: -9999px;
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 80%;
 }
 
 nav .navbar-collapse {
