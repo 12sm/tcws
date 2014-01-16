@@ -73,7 +73,8 @@ height:auto;
 .navbar{
         border-bottom: 0px solid #FFF;
 }
-#menu-primary-navigation{
+#menu-primary-navigation,
+#menu-interior-navigation {
         width: 100%;
 }
 
@@ -95,7 +96,8 @@ height:auto;
         margin-bottom: 0px!important;
 }
 
-.menu-primary-navigation{
+.menu-primary-navigation,
+.menu-interior-navigation {
         margin-left: auto;
         margin-right: auto;
 }
