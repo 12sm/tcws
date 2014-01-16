@@ -443,7 +443,6 @@ body.single-clients button {color:#fff; margin-top:30px;}
 
 body.single-clients .sidebar {display:none;}
 
-body.single-clients .wrap {max-width:960px;}
 
 .mejs-container {
   width: 100% !important;
@@ -545,7 +544,7 @@ margin: 0px auto;
 
 body.single .wrap {
 padding: 10% 30px 0px 30px;
-max-width: 1170px;
+max-width: 960px;
 margin: 0px auto;
 }
 
