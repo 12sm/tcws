@@ -441,7 +441,21 @@ body.single-clients .client-video {margin-bottom:60px;}
 
 body.single-clients button {color:#fff; margin-top:30px;}
 
+body.single-clients button a {color:#fff;}
+
 body.single-clients .sidebar {display:none;}
+
+body.single-clients em {
+font-size: 13px;
+line-height: 13px;
+margin-bottom: 30px;
+display: block;
+color: #999;	
+}
+
+body.single-clients h2 {
+font-size: 40px;
+}
 
 
 .mejs-container {
