@@ -464,6 +464,11 @@ body.single-clients h2 {
 font-size: 40px;
 }
 
+body.single-clients .video-description {
+font-size: 15px;
+line-height: 20px;
+padding: 0px;	
+}
 
 .mejs-container {
   width: 100% !important;
