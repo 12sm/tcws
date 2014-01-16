@@ -345,10 +345,11 @@ opacity: 0.85;
    ========================================================================== */
 
 .sidebar { 
-        background-color:#000;
+.sidebar {
+background-color: #000;
+margin-top: 7.8%;
+opacity: .8;
 }
-
-
 
 /* ==========================================================================
    Posts
@@ -439,7 +440,7 @@ input[type=search] {
 
 body.single-clients article header {display:none;}
 
-body.single-clients .client-video {margin-bottom:30px;}
+body.single-clients .client-video {margin-bottom:60px;}
 
 
 
