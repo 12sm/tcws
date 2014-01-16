@@ -439,16 +439,16 @@ body.single-clients article header {display:none;}
 
 body.single-clients .client-video {margin-bottom:60px;}
 
-body.single-clients .main button {
+body.single-clients .main .download {
 color: #fff;
 width: 80%;
 display: block;
 margin: 30px auto;
 }
 
-body.single-clients .main button a {color:#fff;}
+body.single-clients .main .download a {color:#fff;}
 
-body.single-clients .main button a:hover {text-decoration: none;}
+body.single-clients .main .download a:hover {text-decoration: none;}
 
 body.single-clients .sidebar {display:none;}
 
