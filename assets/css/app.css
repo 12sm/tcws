@@ -472,6 +472,19 @@ line-height: 20px;
 padding: 0px;	
 }
 
+body.single-clients article footer {display:none;}
+
+.post-password-required {
+text-align:center;
+background: #FFF url(../img/main-tile.jpg) top center scroll repeat;
+color:#666;
+line-height:1.6em;
+font-family: "ubuntu", sans-serif;
+font-weight:normal;
+font-size:18px;
+border: 10px solid #FFF;
+}
+
 .mejs-container {
   width: 100% !important;
   height: auto !important;
