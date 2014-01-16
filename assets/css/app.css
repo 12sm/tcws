@@ -464,6 +464,8 @@ body.single-clients h2 {
 font-size: 40px;
 }
 
+body.single-clients .wp-video {margin-bottom: 30px;}
+
 body.single-clients .video-description {
 font-size: 15px;
 line-height: 20px;
@@ -486,6 +488,11 @@ padding: 0px;
   height: 100% !important;
 }
 
+.mejs-controls div.mejs-time-rail {
+direction: ltr;
+padding-top: 5px;
+width: 74%!important;
+}
 
 /* ==========================================================================
    Footer
@@ -570,7 +577,7 @@ margin: 0px auto;
 
 body.single .wrap {
 padding: 10% 30px 0px 30px;
-max-width: 960px;
+max-width: 1070px;
 margin: 0px auto;
 }
 
