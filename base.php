@@ -6,7 +6,7 @@
   <?php
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
-    if (is_front()) {
+    if (is_front_page()) {
       get_template_part('templates/header-top-navbar-home');
     } else {
       get_template_part('templates/header-top-navbar');
