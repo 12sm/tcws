@@ -203,7 +203,7 @@ position: relative;
 
 body.home .row {margin-bottom:20%;}
 
-body.home .content.row {margin-bottom:0px;}
+body.home div.content.row {margin-bottom:0px!important;}
 
 .page-header {
         
