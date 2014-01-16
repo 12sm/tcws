@@ -443,6 +443,8 @@ body.single-clients .client-video {margin-bottom:60px;}
 
 body.single-clients button {color:#fff; margin-top:30px;}
 
+body.single-clients {display:none;}
+
 
 /* ==========================================================================
    Footer
