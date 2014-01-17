@@ -153,6 +153,11 @@ height:auto;
 }
 .navbar-toggle:hover{
         background: rgba(0, 0, 0, 0)!important; 
+
+}
+
+.btn-link:hover{
+          text-decoration: none!important;
 }
 
 .navbar-toggle:focus{
