@@ -325,6 +325,10 @@ width:100%;
 margin-bottom:5px;
 }
 
+#projects .width2{
+  overflow: hidden!important;
+}
+
 #projects .item .desc {
 position: absolute;
 top: 0px;
