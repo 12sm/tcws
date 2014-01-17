@@ -137,14 +137,14 @@ height:auto;
         border-top: 0px solid #FFF!important;
         border-right: 0px solid #FFF!important;
         border-left: 0px solid #FFF!important;
-        border-bottom: 2px solid rgba(198,149,117, .5)!important; 
+        border-bottom: 3px solid rgba(198,149,117, .5)!important; 
         border-radius: 0px!important;
-        height: 20px!important;
+        height: 27px!important;
         width: 100%;
         padding: 0px!important;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 0px!important;
+        margin-top: 2px!important;
         margin-bottom: 0px!important;
 }
 
