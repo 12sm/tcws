@@ -190,7 +190,7 @@ nav .navbar-collapse {
 }
 
 .navbar-nav{
-  margin: 0px;
+  margin: 0px!important;
 }
 
 #topBanner {
