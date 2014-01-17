@@ -156,7 +156,7 @@ height:auto;
 
 }
 
-.btn-link:hover, .btn-link:active{
+.btn-link:hover, .btn-link:focus{
           text-decoration: none!important;
 }
 
