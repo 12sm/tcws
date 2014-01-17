@@ -146,6 +146,7 @@ height:auto;
         margin-left: auto;
         margin-top: 2px!important;
         margin-bottom: 0px!important;
+        z-index: 1000;
 }
 
 .nav .navbar-nav{
