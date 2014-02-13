@@ -226,6 +226,12 @@ position: relative;
 
 body.home .row {margin-bottom:20%;}
 
+body.home .Spotlight {
+background: transparent url(../img/welder-spotlight.png) bottom center no-repeat;
+margin-bottom: 0px;
+padding-bottom: 20%;	
+}
+
 body.home div.content.row {margin-bottom:0px!important;}
 
 .page-header {
@@ -606,6 +612,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Extra small devices (phones, up to 480px) */
 @media (max-width: 767px) {
+
+.wrap {
+background: transparent url(../img/welder-footer.png) bottom center scroll no-repeat;
+}
+
+
 #topBanner {background-size: cover;}	
 
 .page-header h1 {
@@ -629,6 +641,7 @@ margin-left:0px;
 padding: 10% 30px 0px 30px;
 max-width: 1170px;
 margin: 0px auto;
+background: transparent url(../img/welder-footer.png) bottom left scroll no-repeat;
 }
 
 body.single .wrap {
