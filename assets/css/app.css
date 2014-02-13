@@ -227,9 +227,17 @@ position: relative;
 body.home .row {margin-bottom:20%;}
 
 body.home .Spotlight {
-background: transparent url(../img/welder-spotlight.png) bottom center no-repeat;
 margin-bottom: 0px;
 padding-bottom: 20%;	
+}
+
+.welder {
+background: transparent url(../img/welder-spotlight.png) top right no-repeat;
+display: block;
+height: 400px;
+position: absolute;
+width: 100%;
+margin-top: 0px;	
 }
 
 body.home div.content.row {margin-bottom:0px!important;}
@@ -615,6 +623,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 .wrap {
 background: transparent url(../img/welder-footer.png) bottom center scroll no-repeat;
+background-size: 50%;
+padding-bottom: 10%;
 }
 
 
@@ -630,6 +640,16 @@ width: 100%;
 display: block;
 text-align: center;
 margin-left:0px;
+}
+
+.welder {
+width: 90%;
+background-size: contain;	
+}
+
+footer {text-align:center;
+	
+.footer-logo {max-width:100px;}
 }
 
 }
