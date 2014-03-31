@@ -6,7 +6,7 @@
 </div> 
   <div class="row">
     <div class="col-md-8 col-sm-6">
-      	<div class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></div>
+      	<div class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></div>
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="row">
