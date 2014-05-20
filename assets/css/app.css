@@ -603,9 +603,9 @@ position:fixed;
 bottom:0;
 }
 
-.swipebox-close {
-color:#fff;
-content:"<h3>Back</h3"	
+#swipebox-close {
+color:#fff!important;
+content:"<h3>Back</h3"!important;	
 }
 
 /* ==========================================================================
