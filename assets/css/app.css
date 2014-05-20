@@ -717,11 +717,21 @@ bottom:0;
 
 }
 
-#projects .item {width:24.7%;}
+#projects .item {
+width: 24.7%;
+height: 0px;
+overflow: hidden;
+padding-bottom: 13.48%;
+}
 
 #projects .width2 {width: 49.7%; /*max-height:202px; overflow: hidden;*/}
 
-#projects .width3 {width: 49.7%;}
+#projects .width3 {
+width: 49.7%;
+height: 0px;
+padding-bottom: 27.4%;
+overflow: hidden;
+}
 
 }
 
