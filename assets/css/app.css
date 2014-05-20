@@ -604,8 +604,7 @@ bottom:0;
 }
 
 #swipebox-close {
-color:#fff!important;
-content:"<h3>Back</h3"!important;	
+background-image:url(../img/back.png) top center scroll no-repeat;	
 }
 
 /* ==========================================================================
