@@ -603,6 +603,11 @@ position:fixed;
 bottom:0;
 }
 
+.swipebox-close {
+color:#fff;
+content:"<h3>Back</h3"	
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
