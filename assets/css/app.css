@@ -604,7 +604,8 @@ bottom:0;
 }
 
 #swipebox-close {
-background-image:url(../img/back.png) top center scroll no-repeat;	
+background: url(../img/back.png) top center scroll no-repeat!important;
+width: 60px!important;
 }
 
 /* ==========================================================================
