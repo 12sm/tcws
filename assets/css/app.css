@@ -535,6 +535,12 @@ padding: 10% 30px 40% 30px;
   height: auto !important;
   padding-top: 57%;
 }
+
+.mejs-container embed {
+	max-width:650px;
+	max-height:370px;	
+}
+
 .mejs-overlay, .mejs-poster {
   width: 100% !important;
   height: 100% !important;
